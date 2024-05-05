@@ -26,7 +26,7 @@
         android:id="@+id/textView"
         android:layout_width="388dp"
         android:layout_height="87dp"
-        android:text="@string/bubbles_the_cat_your_tamagotchi_app"
+        android:text="@string/welcome_to_bubbles_the_cat_your_tamagotchi_app"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="27sp"
