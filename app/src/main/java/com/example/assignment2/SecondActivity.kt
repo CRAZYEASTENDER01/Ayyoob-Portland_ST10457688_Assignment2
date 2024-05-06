@@ -22,7 +22,7 @@ class SecondActivity : AppCompatActivity() {
         val txtHunger = findViewById<EditText>(R.id.textView2)
         val txtClean = findViewById<EditText>(R.id.textView3)
         val txtHappy = findViewById<EditText>(R.id.textView4)
-        val petImage = findViewById<EditText>(R.id.linearLayout)
+        findViewById<EditText>(R.id.linearLayout)
 
         //set the intial text values
         txtHunger.setText(pethunger.toString())
@@ -35,14 +35,14 @@ class SecondActivity : AppCompatActivity() {
             petcleanliness += 10
             pethealth += 5
             txtHunger.setText(pethunger.toString())
-            animateImageChange(petImage,R.drawable.eating)
+            animateImageChange()
         }
 
         btnclean.setOnClickListener {
             petcleanliness += 10
             pethealth += 10
             txtClean.setText(petcleanliness.toString())
-            animateImageChange(petImage,R.drawable.washing)
+            animateImageChange()
         }
 
         btnplay.setOnClickListener {
@@ -50,13 +50,13 @@ class SecondActivity : AppCompatActivity() {
             pethunger += 5
             petcleanliness += 5
             txtHappy.setText(pethealth.toString())
-            animateImageChange(petImage,R.drawable.playing)
+            animateImageChange()
         }
 
 
     }
 
-    private fun animateImageChange(petImage: EditText?, eating: Int) {
+    private fun animateImageChange() {
 
     }
 }

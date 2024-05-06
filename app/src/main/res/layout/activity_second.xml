@@ -113,7 +113,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="259dp"
         android:layout_height="326dp"
-        android:background="@drawable/OIP"
+        android:background="@drawable/image"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

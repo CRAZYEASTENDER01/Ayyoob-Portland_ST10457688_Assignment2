@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Assignment2</string>
     <string name="play">PLAY</string>
-    <string name="welcome to bubbles_the_cat_your_tamagotchi_app">Bubbles the cat your Tamagotchi App</string>
     <string name="feed">Feed</string>
     <string name="clean">Clean</string>
     <string name="play2">Play2</string>
