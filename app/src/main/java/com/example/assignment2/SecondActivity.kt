@@ -14,7 +14,6 @@ class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
-
         //Set the buttons and text views
         val btnfeed = findViewById<Button>(R.id.button2)
         val btnclean = findViewById<Button>(R.id.button3)

@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         val btnSecondPage = findViewById<Button>(R.id.btnSecondPage)
         btnSecondPage.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
